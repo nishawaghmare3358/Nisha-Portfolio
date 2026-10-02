@@ -1,0 +1,162 @@
+.nav{
+    
+    display: flex;
+    
+    justify-content: space-evenly;
+    height: 100px;
+    background-color: rgba(4,4,238);
+    color: rgba(255, 255, 255, 0.941);
+    font-size: large;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.826);
+    padding: 12px 20px;
+}
+img{
+    border:2px solid rgb(11, 172, 253);
+    border-radius: 50%;
+    background-image:contain;
+    height:100px;
+    width:100px;
+     object-fit: cover;
+     margin-left:10px;
+    
+}
+.hero{
+    display:flex;
+    justify-content:space-between;
+    padding: 25px 50px;
+}
+.job{
+    color:rgb(4, 4, 238);
+    font-size: larger;
+}
+.hero-img{
+    width:250px;
+    height:250px;
+    object-fit: cover;
+    border-radius:50%;
+    background-image: contain;
+    background-size: contain;
+}
+.nav a:hover{
+    
+    background-color: white;
+    color:blue;
+    border-radius:8px;
+}
+.about{
+    padding:25px 50px;
+    text-align: center;
+    justify-content: space-between;
+    background-color:#f5f5f5;
+
+
+}
+.about h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.about p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.skills-box{
+    display:flex;
+    justify-content: center;
+    gap:30px;
+
+}
+.skills{
+    padding:25px 50px;
+    text-align: center;
+}
+.skills h2{
+    font-size:32px;
+    margin-bottom: 30px;
+}
+.skills-box div{
+    
+    padding: 25px 50px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.skills-box div:hover {
+    background-color: blue;
+    color: white;
+    transform: translateY(-5px);
+}
+.projects{
+    height: 200px;
+    text-align: center;
+    padding: 25Px 50px;
+    background-color: #f5f5f5;
+    
+
+    
+}
+.projects h2{
+    font-size:20px;
+    margin-bottom: 40px;
+}
+.project-box{
+    display: flex;
+    gap:30px;
+    text-align: center;
+    width:100%;
+    justify-content:center;
+}
+.project-card {
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 25px;
+    width: 250px;
+}
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.Contact{
+    padding:25px 50px;
+    text-align:center;
+   background-color:#f5f5f5;
+   padding:60px 80px;
+}
+.Contact h2{
+    font-size:32px;
+    margin-bottom: 25px;
+}
+.Contact a{
+    text-decoration:none;
+    margin:10px;
+    color:blue;
+    padding: 12px 18px;
+    border:2px solid  blue;
+    border-radius:8Px;
+    display:inline-block;
+}
+.Contact a:hover{
+    color:darkblue;
+     background-color: blue;
+    color: white;
+}
+html {
+    scroll-behavior: smooth;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+.dark-mode .about,
+.dark-mode .projects,
+.dark-mode .Contact {
+    background-color: black;
+    color: white;
+}
